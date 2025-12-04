@@ -9,6 +9,6 @@ cmake "${GITDIR}"                        \
       -DQBDI_ARCH=AARCH64                \
       -DCMAKE_BUILD_TYPE=Release         \
       -DCMAKE_TOOLCHAIN_FILE="${GITDIR}/cmake/config/ios.toolchain.cmake" \
-      -DCMAKE_OSX_DEPLOYMENT_TARGET="15.0" \
+      -DCMAKE_OSX_DEPLOYMENT_TARGET="12.0" \
       -G Ninja
 
