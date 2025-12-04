@@ -265,7 +265,6 @@ else()
   enable_language(ASM)
   if(QBDI_PLATFORM_IOS)
     set(LLVM_TABLEN_BIN "/Users/guodong/Desktop/qdbi/tablegen/llvm-tblgen")
-    set(NATIVE_TABLEGEN_PATH "/Users/guodong/Desktop/qdbi/tablegen/llvm-tblgen")    
 
     # check exectption deal
     target_compile_definitions(LLVMSupport PRIVATE HAVE_UNISTD_H)

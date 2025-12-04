@@ -8,6 +8,7 @@ cmake "${GITDIR}"                        \
       -DQBDI_PLATFORM=ios                \
       -DQBDI_ARCH=AARCH64                \
       -DCMAKE_BUILD_TYPE=Release         \
+      -DNATIVE_TABLEGEN_PATH="/Users/guodong/Desktop/qdbi/tablegen/llvm-tblgen" \
       -DCMAKE_TOOLCHAIN_FILE="${GITDIR}/cmake/config/ios.toolchain.cmake" \
       -DCMAKE_OSX_DEPLOYMENT_TARGET="12.0" \
       -G Ninja
